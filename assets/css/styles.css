@@ -3,7 +3,7 @@ img {
 }
 
 .navbar-light .navbar-brand img {
-  max-width: 250px;
+  max-width: 300px;
 }
 
 .navbar.navbar-light.navbar-expand-md {
@@ -47,7 +47,7 @@ body {
 
 .site-banner {
   text-align: center;
-  background: url('../../assets/img/banner.jpg');
+  background: #00325e;
   position: relative;
   padding: 60px 0;
   background-position: center center !important;
@@ -80,17 +80,6 @@ body {
 
 .why-us-content ul {
   margin-bottom: 55px;
-}
-
-.site-banner:after {
-  background: #00325e;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  content: "";
-  opacity: .80;
 }
 
 .site-banner .container {
@@ -126,19 +115,13 @@ body {
   color: #797979;
   font-style: italic;
   line-height: 44px;
-  margin: 0 0 0 0;
+  margin: 0 0 30px 0;
 }
 
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.feature-logo-container ul li {
-  display: inline-block;
-  padding: 0 10px;
-  max-width: 180px;
 }
 
 .feature-wrapper hr {
@@ -177,8 +160,8 @@ h3.why-us-head {
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #3fa715;
-  border-color: #3fa715;
+  background-color: #46882b;
+  border-color: #46882b;
 }
 
 .about-btn .btn {
@@ -237,6 +220,7 @@ ul.flex-direction-nav {
   font-size: 24px;
   line-height: 20px;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .our-client-wrapper .partner-logo-thumb {

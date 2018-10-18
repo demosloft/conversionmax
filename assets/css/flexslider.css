@@ -253,3 +253,34 @@ html[xmlns] .flexslider .slides {
   }
 }
 
+.feature-logo-container ul li {
+  display: inline-block;
+  padding: 0 10px;
+  min-width: 180px;
+  max-width: 180px;
+  margin-bottom: 10px;
+}
+
+.feature-logo-container ul li img {
+  max-height: 55px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.feature-logo-container ul li:hover img {
+  -webkit-filter: none;
+  filter: none;
+}
+
+.testimonial-wrapper .flex-control-thumbs li img {
+  border: 2px solid transparent;
+}
+
+.testimonial-wrapper .flex-control-thumbs li img.flex-active {
+  border-color: #3fa715;
+}
+
+.site-banner .btn.btn-primary:hover {
+  background: #46882b;
+}
+
